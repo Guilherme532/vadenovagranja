@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vá de Nova Granja 27.222 - Candidato a Vereador</title>
+    <link rel="icon" type="image/jpeg" href="img/img1.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background-color: #003366;
+            /* Azul escuro */
+            color: #ffffff;
+            padding: 15px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            width: 100%;
+            background-color: #003366;
+            /* Azul escuro */
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            margin-top: 20px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .full-image {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+            border-bottom: 5px solid #003366;
+            /* Borda azul */
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .full-image:hover {
+            transform: scale(1.05);
+            /* Efeito de zoom ao passar o mouse */
+        }
+
+        .large-image {
+            width: 90%;
+            height: auto;
+            max-width: 480px;
+            max-height: 300px;
+            margin: 20px 0;
+            border-radius: 8px;
+            /* Cantos arredondados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Sombra */
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .large-image:hover {
+            transform: scale(1.05);
+            /* Efeito de zoom ao passar o mouse */
+        }
+
+        .content {
+            width: 90%;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            /* Cantos arredondados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Sombra */
+            transition: background-color 0.3s ease;
+        }
+
+        .content:hover {
+            background-color: #e6e6e6;
+            /* Cor de fundo ao passar o mouse */
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #555;
+            text-align: justify;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            .large-image {
+                max-width: 100%;
+                max-height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Valdeci Batista 27.222</h1>
+    </header>
+
+    <!-- Imagem que cobre toda a largura da tela -->
+    <img src="img/img2.jpg" alt="Valdeci Batista - Campanha Eleitoral" class="full-image">
+
+    <!-- Espaço para parágrafos futuros -->
+    <div class="content">
+        <p>Olá, eu sou Valdeci Batista, candidato a vereador conhecido como Vá de Nova Granja com o número 27.222. Com
+            mais de 30 anos de vivência na nossa cidade, conheço de perto as necessidades e desafios que enfrentamos
+            diariamente. Minha principal missão é melhorar a qualidade de vida de cada cidadão através de um plano de
+            governo sólido que foca em três áreas essenciais: saúde, educação e lazer. Quero garantir que todos tenham
+            acesso a um atendimento de saúde digno e eficiente, e que nossas crianças e jovens recebam a melhor educação
+            possível para um futuro promissor. Além disso, estou comprometido em criar mais espaços de lazer e convívio
+            social, para que possamos desfrutar de momentos em família e fortalecer nossa comunidade. Juntos, podemos
+            transformar nossa cidade em um lugar ainda melhor para viver!</p> <!-- Parágrafo 1 -->
+    </div>
+
+    <!-- Imagem grande mas não cobrindo toda a tela -->
+    <img src="img/img1.jpg" alt="Valdeci Batista - Proposta" class="large-image">
+
+    <!-- Espaço para parágrafos adicionais -->
+    <div class="content">
+        <p>Eu acredito que a mudança começa com ações concretas e um compromisso verdadeiro com a nossa comunidade. Por
+            isso, estou aqui para trabalhar incansavelmente para trazer melhorias reais e duradouras. Com minha
+            experiência
+            e dedicação, quero enfrentar os desafios que temos pela frente e buscar soluções que realmente façam a
+            diferença. Acredito em uma cidade onde todos têm oportunidades iguais, onde a saúde e a educação são
+            prioridades, e onde o lazer e o bem-estar são parte do cotidiano de cada um. Conto com seu apoio para fazer
+            de
+            nossa cidade um exemplo de progresso e qualidade de vida. Vote 27.222, vote em Vá de Nova Granja para um
+            futuro
+            melhor para todos nós!</p> <!-- Parágrafo 2 -->
+        <p></p> <!-- Parágrafo 3 -->
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Valdeci Batista. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Script JavaScript para efeitos adicionais -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Efeito de scroll suave para links internos
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
